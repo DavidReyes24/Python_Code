@@ -1,7 +1,5 @@
 # excel_utils.py
 # Using Tkinter to read an Excel Spreadsheet into a pandas dataframe
-# Here is a change for the feature-a branch
-# Adding a comment for the feature-b branch
 
 import pandas as pd
 from tkinter import Tk, filedialog
