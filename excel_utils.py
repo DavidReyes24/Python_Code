@@ -1,7 +1,5 @@
 # excel_utils.py
 # Using Tkinter to read an Excel Spreadsheet into a pandas dataframe
-# New line for Git Pull
-# New line for Git branch push
 
 import pandas as pd
 from tkinter import Tk, filedialog
