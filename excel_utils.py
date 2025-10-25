@@ -3,7 +3,6 @@
 
 import pandas as pd
 from tkinter import Tk, filedialog
-from math import pi
 
 # To use: from excel_utils import load_excel
 def load_excel():
@@ -35,7 +34,3 @@ def load_excel():
             print(f"Error Detected: {e}")
         except ValueError as e:
             print(f"Please Try Again: {e}")
-
-def circle_area(radius):
-    area = pi * radius**2
-    return area
