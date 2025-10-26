@@ -47,7 +47,7 @@ def load_csv():
 
     while True:
         file_name = filedialog.askopenfilename(
-            title="Please select a csv file".
+            title="Please select a csv file",
             filetypes=[("csv files", "*.csv"), ("All files", "*.*")])
         
         try:
