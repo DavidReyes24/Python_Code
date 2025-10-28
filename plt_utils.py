@@ -15,7 +15,6 @@ def wide_to_long_excel():
         value_name="Value",      # Name of the new column for holding values
     )
 
-    return df_long
-
     print("Here is the head of the excel data now in long format")
     print(df_long.head())
+    return df_long
