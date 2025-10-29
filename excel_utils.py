@@ -34,3 +34,19 @@ def load_excel():
             print(f"Error Detected: {e}")
         except ValueError as e:
             print(f"Please Try Again: {e}")
+
+"""
+This function changes a pandas dataframe loaded in a "wide format" to a "long format" making it easier to plot grouped
+bar graphs.
+"""
+def wide_to_long_df(df_wide):
+        df_long = df_wide.melt(
+        id_vars="Group",        # Column to keep as identifier
+        var_name="Categories",  # Name of the new column for categories
+        value_name="Value",     # Name of the new column for holding values
+        )
+        
+        print("Your dataframe is now in a long format")
+        print(df_long.head())
+        return df_long
+
