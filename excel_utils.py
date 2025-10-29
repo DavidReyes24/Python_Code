@@ -36,8 +36,8 @@ def load_excel():
             print(f"Please Try Again: {e}")
 
 """
-This function changes a pandas dataframe loaded in a "wide format" to a "long format" making it easier to plot grouped
-bar graphs.
+This function changes a pandas dataframe loaded in a "wide format" to a "long format" making it easier to perform data
+science functions on it. 
 """
 def wide_to_long_df(df_wide):
         df_long = df_wide.melt(
@@ -49,4 +49,3 @@ def wide_to_long_df(df_wide):
         print("Your dataframe is now in a long format")
         print(df_long.head())
         return df_long
-
