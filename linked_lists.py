@@ -60,3 +60,11 @@ l1.append(10)
 l1.append(20)
 l1.append(30)
 l1.display()
+
+# Insert at the beginning
+l1.prepend(5)
+l1.display()
+
+# Delete an element
+l1.delete(20)
+l1.display()
